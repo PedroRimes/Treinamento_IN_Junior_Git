@@ -20,59 +20,59 @@ git config --global core.editor 'code --wait' -> Vscode para editor padrão (pre
 -------------------------------------------------------
 
 
-git init
+git init : inicializa o repositório
 
-git status
+git status : indica o status do arquivo e seus commits
 
-git add arquivo/diretório
-git add --all = git add .
+git add arquivo/diretório : adiciona o arquivo ou diretório selecionado ao branch selecionado
+git add --all = git add . : adiciona todos os arquivos para a area de preparação.
 
-git commit -m “Primeiro commit”
-
--------------------------------------------------------
-
-git log
-git log arquivo
-git reflog
+git commit -m “Primeiro commit” : altera o estado do arquivo com as mudanças feitas. 
 
 -------------------------------------------------------
 
-git show
-git show <commit>
+git log : mostra todas os commits feitos no repositório
+git log arquivo : mostra os commits feitos relacionados a um arquivo específico
+git reflog : mostra uma versão simplificada de todas as alterações
 
 -------------------------------------------------------
 
-git diff
-git diff <commit1> <commit2>
+git show : mostra a mensagem do ultimo commit, suas informações e o conteudo do commit
+git show <commit> :  mostra a mensagem,informações e o conteudo do commit selecionado
 
 -------------------------------------------------------
 
-git reset --hard <commit>
+git diff : mostra a diferença de conteudo do arquivo atual com o anteiror 
+git diff <commit1> <commit2> : mostra a diferença entre dois commit selecionados por seus ID
 
 -------------------------------------------------------
 
-git branch
-git branch -r 
-git branch -a
-git branch -d <branch_name> 
-git branch -D <branch_name> 
-git branch -m <nome_novo>
-git branch -m <nome_antigo> <nome_novo>
+git reset --hard <commit> : altera um commit para sua versão anteriror.
 
 -------------------------------------------------------
 
-git checkout <branch_name> 
-git checkout -b <branch_name> 
+git branch : mostra todas as branches locais 
+git branch -r : mostra todas as branches remotas
+git branch -a : mostra todas as branches remotas e locais
+git branch -d <branch_name> : Apaga um branch local
+git branch -D <branch_name> : Força a remoção de um branch local
+git branch -m <nome_novo> : Altera o nome da branch atual
+git branch -m <nome_antigo> <nome_novo> : Altera específicamente o nome de um branch
 
 -------------------------------------------------------
 
-git merge <branch_name> 
+git checkout <branch_name> : Altera a branch selecionada por outra
+git checkout -b <branch_name> : Altera a branch selecionada para outra que será criada no momento
 
 -------------------------------------------------------
 
-git clone
-git pull
-git push
+git merge <branch_name> : Junta a branch selecionada com o branch atual
+
+-------------------------------------------------------
+
+git clone : Clona um repositório para a pasta atual.
+git pull : Atualiza o repositório atual com os novos dados do repositório remoto.
+git push : Atualiza a origem do branch com o repositório local.
 
 -------------------------------------------------------
 
