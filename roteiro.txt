@@ -1,0 +1,94 @@
+git help: Mostra vários comandos de forma resumida
+
+git help <comando>: Mostra detalhes de um comando específico
+
+git config --global user.name “Seu Nome”
+git config --global user.email “seuemaill@gmail.com”   (Usar o mesmo email do gitlab)
+ 
+Para o repositório atual: --local;
+Para o Usuário: --global;
+Para o Computador: --system
+
+Opcional:
+(primeiro testa code -v)
+git config --global core.editor 'code --wait' -> Vscode para editor padrão (precisa do code no PATH)
+
+
+	Se tudo der certo:
+	git config --global -e -> Abre o arquivo de configuração no vscode
+
+-------------------------------------------------------
+
+
+git init
+
+git status
+
+git add arquivo/diretório
+git add --all = git add .
+
+git commit -m “Primeiro commit”
+
+-------------------------------------------------------
+
+git log
+git log arquivo
+git reflog
+
+-------------------------------------------------------
+
+git show
+git show <commit>
+
+-------------------------------------------------------
+
+git diff
+git diff <commit1> <commit2>
+
+-------------------------------------------------------
+
+git reset --hard <commit>
+
+-------------------------------------------------------
+
+git branch
+git branch -r 
+git branch -a
+git branch -d <branch_name> 
+git branch -D <branch_name> 
+git branch -m <nome_novo>
+git branch -m <nome_antigo> <nome_novo>
+
+-------------------------------------------------------
+
+git checkout <branch_name> 
+git checkout -b <branch_name> 
+
+-------------------------------------------------------
+
+git merge <branch_name> 
+
+-------------------------------------------------------
+
+git clone
+git pull
+git push
+
+-------------------------------------------------------
+
+git remote -v
+git remote add origin <url>
+git remote <url> origin
+
+--------------------------------------------------------
+
+Documentação do git:
+https://git-scm.com/doc
+
+Playlist GIT:
+https://www.youtube.com/playlist?list=PLucm8g_ezqNq0dOgug6paAkH0AQSJPlIe
+
+Vídeo sobre Git: 
+https://www.youtube.com/watch?v=kB5e-gTAl_s
+
+
