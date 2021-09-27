@@ -76,9 +76,9 @@ git push : Atualiza a origem do branch com o repositório local.
 
 -------------------------------------------------------
 
-git remote -v
-git remote add origin <url>
-git remote <url> origin
+git remote -v : Mostra a URL e o nome do repositório.
+git remote add origin <url> : Adiciona o repositório remoto a URL selecionada.
+git remote <url> origin : Altera o URL do repositório remoto por uma nova URl selecionada.
 
 --------------------------------------------------------
 
